@@ -15,19 +15,19 @@
             <div class="bg-white rounded-lg shadow-sm">
                 <div class="p-[20px]">
                     <p>Total</p>
-                    <h4 class="text-2xl font-bold text-black">0</h4>
+                    <h4 id="total-job-amount" class="text-2xl font-bold text-black">0</h4>
                 </div>
             </div>
             <div class="bg-white rounded-lg shadow-sm">
                 <div class="p-[20px]">
                     <p>Interview</p>
-                    <h4 class="text-2xl font-bold text-green-500">0</h4>
+                    <h4 id="total-interview-amount" class="text-2xl font-bold text-green-500">0</h4>
                 </div>
             </div>
             <div class="bg-white rounded-lg shadow-sm">
                 <div class="p-[20px]">
                     <p>Rejected</p>
-                    <h4 class="text-2xl text-red-500 font-bold">0</h4>
+                    <h4 id="total-rejected-amount" class="text-2xl text-red-500 font-bold">0</h4>
                 </div>
             </div>
         </section>
@@ -37,7 +37,7 @@
     <main>
         <div class="flex justify-between mb-3">
             <div>
-                <p>Available Jobs</p>
+                <p class="text-xl font-semibold">Available Jobs</p>
             </div>
             <div>0 jobs</div>
         </div>
@@ -51,7 +51,7 @@
             <div class="cards flex flex-col gap-5 p-6 shadow-sm bg-white rounded-md">
                 <div class="flex justify-between">
                     <div>
-                        <h3 class="text-xl">Mobile First Corp</h3>
+                        <h3 class="job-title text-xl">Mobile First Corp</h3>
                         <p class="text-gray-500">React Native Developer</p>
                     </div>
                     <button class="delete-icon size-8 flex justify-center text-center items-center border-gray-400 border rounded-4xl"><img src="images/icons8-delete-100.png" alt="Delete Icon" class="size-6"></button>
@@ -71,7 +71,7 @@
             <div class="cards flex flex-col gap-5 p-6 shadow-sm bg-white rounded-md">
                 <div class="flex justify-between">
                     <div>
-                        <h3 class="text-xl">WebFlow Agency</h3>
+                        <h3 class="job-title text-xl">WebFlow Agency</h3>
                         <p class="text-gray-500">Web Designer & Developer</p>
                     </div>
                     <button class="delete-icon size-8 flex justify-center text-center items-center border-gray-400 border rounded-4xl"><img src="images/icons8-delete-100.png" alt="Delete Icon" class="size-6"></button>
@@ -91,7 +91,7 @@
             <div class="cards flex flex-col gap-5 p-6 shadow-sm bg-white rounded-md">
                 <div class="flex justify-between">
                     <div>
-                        <h3 class="text-xl">CloudFirst Inc</h3>
+                        <h3 class="job-title text-xl">CloudFirst Inc</h3>
                         <p class="text-gray-500">Backend Developer</p>
                     </div>
                     <button class="delete-icon size-8 flex justify-center text-center items-center border-gray-400 border rounded-4xl"><img src="images/icons8-delete-100.png" alt="Delete Icon" class="size-6"></button>
@@ -111,7 +111,7 @@
             <div class="cards flex flex-col gap-5 p-6 shadow-sm bg-white rounded-md">
                 <div class="flex justify-between">
                     <div>
-                        <h3 class="text-xl">Innovation Labs</h3>
+                        <h3 class="job-title text-xl">Innovation Labs</h3>
                         <p class="text-gray-500">UI/UX Engineer</p>
                     </div>
                     <button class="delete-icon size-8 flex justify-center text-center items-center border-gray-400 border rounded-4xl"><img src="images/icons8-delete-100.png" alt="Delete Icon" class="size-6"></button>
@@ -131,7 +131,7 @@
             <div class="cards flex flex-col gap-5 p-6 shadow-sm bg-white rounded-md">
                 <div class="flex justify-between">
                     <div>
-                        <h3 class="text-xl">MegaCorp Solutions</h3>
+                        <h3 class="job-title text-xl">MegaCorp Solutions</h3>
                         <p class="text-gray-500">JavaScript Developer</p>
                     </div>
                     <button class="delete-icon size-8 flex justify-center text-center items-center border-gray-400 border rounded-4xl"><img src="images/icons8-delete-100.png" alt="Delete Icon" class="size-6"></button>
@@ -151,7 +151,7 @@
             <div class="cards flex flex-col gap-5 p-6 shadow-sm bg-white rounded-md">
                 <div class="flex justify-between">
                     <div>
-                        <h3 class="text-xl">StartupXYZ</h3>
+                        <h3 class="job-title text-xl">StartupXYZ</h3>
                         <p class="text-gray-500">Full Stack Engineer</p>
                     </div>
                     <button class="delete-icon size-8 flex justify-center text-center items-center border-gray-400 border rounded-4xl"><img src="images/icons8-delete-100.png" alt="Delete Icon" class="size-6"></button>
@@ -171,7 +171,7 @@
             <div class="cards flex flex-col gap-5 p-6 shadow-sm bg-white rounded-md">
                 <div class="flex justify-between">
                     <div>
-                        <h3 class="text-xl">TechCorp Industries</h3>
+                        <h3 class="job-title text-xl">TechCorp Industries</h3>
                         <p class="text-gray-500">Senior Frontend Developer</p>
                     </div>
                     <button class="delete-icon size-8 flex justify-center text-center items-center border-gray-400 border rounded-4xl"><img src="images/icons8-delete-100.png" alt="Delete Icon" class="size-6"></button>
@@ -191,7 +191,7 @@
             <div class="cards flex flex-col gap-5 p-6 shadow-sm bg-white rounded-md">
                 <div class="flex justify-between">
                     <div>
-                        <h3 class="text-xl">DataViz Solutions</h3>
+                        <h3 class="job-title text-xl">DataViz Solutions</h3>
                         <p class="text-gray-500">Data Visualization Specialist</p>
                     </div>
                     <button class="delete-icon size-8 flex justify-center text-center items-center border-gray-400 border rounded-4xl"><img src="images/icons8-delete-100.png" alt="Delete Icon" class="size-6"></button>
