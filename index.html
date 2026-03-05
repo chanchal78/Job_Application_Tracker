@@ -46,6 +46,30 @@
             <button id="interview-tab-btn" class="bg-white rounded-sm px-5 py-1 shadow-sm" onclick="switchTab('interview')">Interview</button>
             <button id="rejected-tab-btn" class="bg-white rounded-sm px-5 py-1 shadow-sm" onclick="switchTab('rejected')">Rejected</button>
         </div>
+
+        <section id="job-section" class="grid grid-cols-1 gap-5 pt-5">
+            <div class="cards flex flex-col gap-5 p-6 shadow-sm bg-white rounded-md">
+                <div class="flex justify-between">
+                    <div>
+                        <h3 class="job-title text-xl">Mobile First Corp</h3>
+                        <p class="text-gray-500">React Native Developer</p>
+                    </div>
+                    <button class="delete-icon size-8 flex justify-center text-center items-center border-gray-400 border rounded-4xl"><img src="images/icons8-delete-100.png" alt="Delete Icon" class="size-6"></button>
+                </div>
+                <div class="job-type">
+                    <p class="text-gray-500">Remote • Full-time • $100,000 - $110,000</p>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <button class="status self-start bg-[#EEF4FF] rounded-md py-2 px-3">NOT APPLIED</button>
+                    <p class="job-about text-gray-700">Develop high-performance mobile application using React Native for iOS and Android platforms.</p>
+                </div>
+                <div class="pair-btn flex gap-3">
+                    <button class="interviewBtn py-1 px-3 text-green-600 border-green-600 border-2 rounded-md">INTERVIEW</button>
+                    <button class="rejectedBtn py-1 px-3 text-red-600 border-red-600 border-2 rounded-md">REJECTED</button>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <script src="js/main.js"></script>
