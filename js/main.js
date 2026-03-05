@@ -94,6 +94,15 @@ function filterCards(){
         }
     });
     availableJobCount.innerText = visibleCardCount + ' jobs';
+
+    const emptyState = document.getElementById('empty-state');
+    if(visibleCardCount === 0){
+        emptyState.classList.remove("hidden");
+
+    }
+    else{
+        emptyState.classList.add("hidden");
+    }
 }
 
 function counts(){
