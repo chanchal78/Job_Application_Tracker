@@ -13,6 +13,8 @@ interviewBtns.forEach(function(button){
         const status = card.querySelector('.status');
 
         status.innerText = 'INTERVIEW';
+        status.classList.remove("bg-[#EEF4FF]");
+        status.classList.add("bg-green-200");
 
         counts();
         filterCards();
@@ -27,6 +29,8 @@ rejectedBtns.forEach(function(button){
         const status = card.querySelector('.status');
 
         status.innerText = 'REJECTED';
+        status.classList.remove("bg-[#EEF4FF]");
+        status.classList.add("bg-red-200");
 
         counts();
         filterCards();
@@ -130,3 +134,4 @@ function counts(){
 
 counts();
 filterCards();
+
